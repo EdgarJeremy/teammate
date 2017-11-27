@@ -1,0 +1,1 @@
+C:\Users\zero\AppData\Local\Android\sdk\tools\emulator.exe -avd Nexus_4_API_25
