@@ -14,7 +14,7 @@ export default Api = {
         .catch(failed)
     },
 
-    hacker_news: () => {
+    hacker_news: (success,failed) => {
         fetch(`${config.hackernews.uri}/?sources=hacker-news&apiKey=${config.hackernews.key}`)
         .then((response) => response.json())
         .then(success)

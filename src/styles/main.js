@@ -65,6 +65,13 @@ export default styles = StyleSheet.create({
         paddingBottom: 7,
         borderBottomWidth: 0.2,
         borderBottomColor: "#e1e1e1"
+    },
+
+    menu_icon_hollow: {
+        marginTop: 40,
+        marginBottom: 20,
+        width: width,
+        height: height * (30 / 100)
     }
 
 })
